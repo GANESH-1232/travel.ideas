@@ -5,7 +5,7 @@ const destinations = [
         name: 'Taj Mahal',
         region: 'india',
         rating: 5,
-        image: 'images/taj mahal.jpg',
+        image: 'taj mahal.jpg',
         description: 'An ivory-white marble mausoleum on the right bank of the river Yamuna in Agra, India.',
         transport: {
             public: ['Train from Delhi to Agra', 'Local bus services', 'Auto rickshaws'],
@@ -17,7 +17,7 @@ const destinations = [
         name: 'Statue of Liberty',
         region: 'usa',
         rating: 4,
-        image: 'images/New York City.jpg',
+        image: 'New York City.jpg',
         description: 'A colossal neoclassical sculpture on Liberty Island in New York Harbor.',
         transport: {
             public: ['Subway to Battery Park', 'Ferry service', 'Bus tours'],
@@ -29,7 +29,7 @@ const destinations = [
         name: 'Burj Khalifa',
         region: 'dubai',
         rating: 5,
-        image: 'images/Burj Khalifa.png',
+        image: 'Burj Al Arab.jpg',
         description: 'The world\'s tallest building, standing at 828 meters in Dubai, UAE.',
         transport: {
             public: ['Dubai Metro', 'Public buses', 'Water taxi'],
@@ -41,7 +41,7 @@ const destinations = [
         name: 'Goa Beaches',
         region: 'india',
         rating: 5,
-        image: 'images/goa beaches.jpg',
+        image: 'goa beaches.jpg',
         description: 'Famous for its pristine beaches, vibrant nightlife, water sports, and Portuguese architecture.',
         transport: {
             public: ['Trains from major cities', 'State buses', 'Local buses'],
@@ -53,7 +53,7 @@ const destinations = [
         name: 'Kerala Backwaters',
         region: 'india',
         rating: 5,
-        image: 'images/kerela back waters.jpg',
+        image: 'kerela back waters.jpg',
         description: 'Serene network of lagoons, lakes, and canals parallel to the Arabian Sea coast, famous for houseboats.',
         transport: {
             public: ['State transport buses', 'Ferry services', 'Local boats'],
@@ -65,7 +65,7 @@ const destinations = [
         name: 'Kashmir Valley',
         region: 'india',
         rating: 5,
-        image: 'images/Kashmir Valley.jpg',
+        image: 'Kashmir Valley.jpg',
         description: 'Known as "Paradise on Earth" with stunning landscapes, Dal Lake, and Mughal gardens.',
         transport: {
             public: ['Flights to Srinagar', 'State buses', 'Shared taxis'],
@@ -77,7 +77,7 @@ const destinations = [
         name: 'Uttarakhand Valley of Flowers',
         region: 'india',
         rating: 4,
-        image: 'images/Uttarakhand Valley of Flower.jpg',
+        image: 'Uttarakhand Valley of Flower.jpg',
         description: 'UNESCO World Heritage site known for its meadows of endemic alpine flowers and diverse wildlife.',
         transport: {
             public: ['State buses to Govindghat', 'Shared jeeps'],
@@ -89,7 +89,7 @@ const destinations = [
         name: 'Rishikesh',
         region: 'india',
         rating: 4,
-        image: 'images/Rishikesh.jpg',
+        image: 'Rishikesh.jpg',
         description: 'Yoga capital of the world, famous for spiritual activities, river rafting, and Beatles Ashram.',
         transport: {
             public: ['Trains to Haridwar', 'State buses', 'Shared autos'],
@@ -101,7 +101,7 @@ const destinations = [
         name: 'Manali',
         region: 'india',
         rating: 5,
-        image: 'images/manali.jpg',
+        image: 'manali.jpg',
         description: 'Popular hill station known for snow sports, Rohtang Pass, and adventure activities.',
         transport: {
             public: ['Volvo buses from Delhi', 'Local buses', 'Shared taxis'],
@@ -113,7 +113,7 @@ const destinations = [
         name: 'Mumbai',
         region: 'india',
         rating: 5,
-        image: 'images/Mumbai.jpg',
+        image: 'Mumbai.jpg',
         description: 'India\'s financial capital, home to Bollywood, colonial architecture, and vibrant street life.',
         transport: {
             public: ['Local trains', 'BEST buses', 'Metro'],
@@ -125,7 +125,7 @@ const destinations = [
         name: 'Chandigarh',
         region: 'india',
         rating: 4,
-        image: 'images/chandigarh.jpg',
+        image: 'chandigarh.jpg',
         description: 'India\'s first planned city, known for its architecture, gardens, and quality of life.',
         transport: {
             public: ['CTU buses', 'Auto rickshaws', 'Cycle sharing'],
@@ -137,7 +137,7 @@ const destinations = [
         name: 'Jodhpur',
         region: 'india',
         rating: 4,
-        image: 'images/Jodhpur.jpg',
+        image: 'Jodhpur.jpg',
         description: 'The Blue City, famous for Mehrangarh Fort, blue houses, and rich Rajasthani culture.',
         transport: {
             public: ['City buses', 'Auto rickshaws', 'Shared taxis'],
@@ -149,7 +149,7 @@ const destinations = [
         name: 'Ladakh',
         region: 'india',
         rating: 5,
-        image: 'images/Ladakh.jpg',
+        image: 'Ladakh.jpg',
         description: 'Land of high passes, Buddhist monasteries, and stunning Himalayan landscapes.',
         transport: {
             public: ['Flights to Leh', 'State buses', 'Shared taxis'],
@@ -161,7 +161,7 @@ const destinations = [
         name: 'New York City',
         region: 'usa',
         rating: 5,
-        image: 'images/New York City.jpg',
+        image: 'New York City.jpg',
         description: 'The Big Apple - home to iconic landmarks like Times Square, Central Park, Empire State Building, and Broadway.',
         transport: {
             public: ['Subway system', 'MTA buses', 'Staten Island Ferry', 'Commuter trains (PATH)'],
@@ -173,7 +173,7 @@ const destinations = [
         name: 'San Francisco',
         region: 'usa',
         rating: 5,
-        image: 'images/San Francisco.jpg',
+        image: 'San Francisco.jpg',
         description: 'Known for the Golden Gate Bridge, cable cars, Victorian houses, and Silicon Valley.',
         transport: {
             public: ['BART system', 'Muni buses and trains', 'Cable cars', 'Ferry services'],
@@ -185,7 +185,7 @@ const destinations = [
         name: 'Los Angeles',
         region: 'usa',
         rating: 4,
-        image: 'images/Los Angeles.jpg',
+        image: 'Los Angeles.jpg',
         description: 'Entertainment capital of the world, featuring Hollywood, Beverly Hills, beautiful beaches, and theme parks.',
         transport: {
             public: ['Metro rail and buses', 'DASH buses', 'LAX FlyAway'],
@@ -197,7 +197,7 @@ const destinations = [
         name: 'Grand Canyon',
         region: 'usa',
         rating: 5,
-        image: 'images/Grand Canyon.avif',
+        image: 'Grand Canyon.avif',
         description: 'One of the world\'s natural wonders, carved by the Colorado River.',
         transport: {
             public: ['Grand Canyon Railway', 'Park shuttle buses', 'Tour buses from Las Vegas/Phoenix'],
@@ -209,7 +209,7 @@ const destinations = [
         name: 'Yellowstone',
         region: 'usa',
         rating: 5,
-        image: 'images/Yellowstone.jpg',
+        image: 'Yellowstone.jpg',
         description: 'America\'s first national park, featuring geothermal features like Old Faithful.',
         transport: {
             public: ['Park shuttle services', 'Guided bus tours', 'Yellowstone Airport shuttles'],
@@ -221,7 +221,7 @@ const destinations = [
         name: 'Dubai Mall',
         region: 'dubai',
         rating: 5,
-        image: 'images/Dubai Mall.jpg',
+        image: 'Dubai Mall.jpg',
         description: 'The world\'s largest shopping mall with over 1,200 retail stores.',
         transport: {
             public: ['Dubai Metro (Red Line)', 'RTA Buses', 'Water Taxi'],
@@ -233,7 +233,7 @@ const destinations = [
         name: 'Dubai Aquarium',
         region: 'dubai',
         rating: 5,
-        image: 'images/Dubai Aquarium.jpg',
+        image: 'Dubai Aquarium.jpg',
         description: 'One of the largest suspended aquariums in the world.',
         transport: {
             public: ['Dubai Metro (Red Line)', 'RTA Buses'],
@@ -245,7 +245,7 @@ const destinations = [
         name: 'Dubai Miracle Garden',
         region: 'dubai',
         rating: 4,
-        image: 'images/Dubai Miracle Garden.jpg',
+        image: 'Dubai Miracle Garden.jpg',
         description: 'The world\'s largest natural flower garden.',
         transport: {
             public: ['RTA Buses', 'Miracle Garden Shuttle'],
@@ -257,7 +257,7 @@ const destinations = [
         name: 'Dubai Frame',
         region: 'dubai',
         rating: 4,
-        image: 'images/Dubai Frame.jpg',
+        image: 'Dubai Frame.jpg',
         description: 'An architectural landmark offering panoramic views of old and new Dubai.',
         transport: {
             public: ['Dubai Metro (Green Line)', 'RTA Buses'],
@@ -269,7 +269,7 @@ const destinations = [
         name: 'The Dubai Fountain',
         region: 'dubai',
         rating: 5,
-        image: 'images/The Dubai Fountain.jpg',
+        image: 'The Dubai Fountain.jpg',
         description: 'The world\'s largest choreographed fountain system.',
         transport: {
             public: ['Dubai Metro (Red Line)', 'RTA Buses', 'Water Taxi'],
@@ -281,7 +281,7 @@ const destinations = [
         name: 'Burj Al Arab',
         region: 'dubai',
         rating: 5,
-        image: 'images/Burj Al Arab.jpg',
+        image: 'Burj Al Arab.jpg',
         description: 'The world\'s first seven-star hotel, an iconic sail-shaped building.',
         transport: {
             public: ['RTA Buses', 'Water Taxi'],
