@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Idea Wall</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Travel Idea Wall</div>
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Search destinations...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="filters">
+            <div class="region-filters">
+                <h3>Regions</h3>
+                <button class="filter-btn active" data-region="all">All</button>
+                <button class="filter-btn" data-region="india">India</button>
+                <button class="filter-btn" data-region="usa">USA</button>
+                <button class="filter-btn" data-region="dubai">Dubai</button>
+            </div>
+            <div class="rating-filter">
+                <h3>Minimum Rating</h3>
+                <div class="star-filter">
+                    <i class="fas fa-star" data-rating="1"></i>
+                    <i class="fas fa-star" data-rating="2"></i>
+                    <i class="fas fa-star" data-rating="3"></i>
+                    <i class="fas fa-star" data-rating="4"></i>
+                    <i class="fas fa-star" data-rating="5"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="destinations-grid">
+            <!-- Destination cards will be dynamically added here -->
+        </div>
+    </main>
+
+    <div class="destination-modal" id="destinationModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-body">
+                <!-- Modal content will be dynamically added here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
